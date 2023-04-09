@@ -70,7 +70,6 @@ export const Rating = ({
   );
 
   if (readOnly) {
-    console.log(getColorScalingProps(0, 0.2));
     return (
       <>
         {[...new Array(maxRating)].map((_, index) => (

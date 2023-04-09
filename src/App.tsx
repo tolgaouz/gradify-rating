@@ -3,7 +3,7 @@ import { ReactComponent as CircleIcon } from "./assets/circleIcon.svg";
 import { ReactComponent as BatteryIcon } from "./assets/battery.svg";
 import { ReactComponent as BellIcon } from "./assets/bell.svg";
 import { ReactComponent as BoltIcon } from "./assets/bolt.svg";
-import { Rating } from "./rating";
+import { Rating } from "./Rating";
 
 function App() {
   return (
@@ -81,7 +81,7 @@ function App() {
           rating={4.35}
           maxRating={9}
           icon={BellIcon}
-          className="text-amber-300 stroke-slate-100"
+          className="text-amber-300 stroke-slate-100 hover:text-red-300 hover:translate-y-1 transition-all ease-in-out duration-1000"
         />
         4.35
       </div>
